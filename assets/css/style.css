@@ -1,0 +1,48 @@
+html, body{
+	width: 100%;
+	min-height: 100%;
+	margin: 0;
+	padding:0;}
+           
+ul,ol{
+	padding: 0;
+	margin: 0;
+	list-style: none;}
+ 
+ #wrapper{
+ 	width: 100%;
+ 	max-width: 100%; 
+ 	height: auto;}
+          
+  .container{
+  	width: 100%;
+  	max-width: 1280px;
+  	height: auto;
+  	margin: 0 auto;
+  	overflow-y: hidden;}
+  	header{
+  		line-height: 75px;
+  	}
+  	#web-logo{
+  		float: left;
+  		width: 50%;
+  		max-width:21px;}
+  	#web-logo img{
+  		width: 100%;
+  	}
+  		#usermenu{
+  			float: right;
+  			width: 300px;
+  			text-align: right; 
+  		}
+
+  		#usermenu li{
+  			width: 100px;
+  			display: inline-block;}
+  		}
+  		#usermenu li a{
+  			color: #17152A;
+  			text-decoration: none;
+  			font-size: 16px;
+  			font-family: myriad pro;} 
+  		}
