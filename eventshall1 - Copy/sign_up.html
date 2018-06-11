@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+     <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+ <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>-->
+  <!--add jquery file -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="assets/css/sign_up.css">
+  <script type="text/javascript" src="assets/js/signup_validation.js"></script>
+ 
+
+    <title>Registration Form</title>
+  </head>
+  <body>
+    <!-- heading section using navbar -->
+
+  <div class="navbar navbar-inverse navbar-fixed navbar-custom">
+      <div class="container">
+          <div class="navbar-header" ><a href="#" class="pull-left">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>                        
+              </button>
+              <a class="pull-left" href="#"><img  src="assets/images/logo.png" alt="Brand"></a>
+              <a class="navbar-brand" href="#">Events Hall</a>
+          </div>
+
+          <div class="collapse navbar-collapse" id="myNavbar">
+              <ul class="nav navbar-nav navbar-right">
+                  <li><a href="#"><span class="glyphicon glyphicon-user"></span>SignIn</a></li>
+                  <li><a href="searchpage.html"><span class="glyphicon glyphicon-search"></span> Search</a></li>
+                  <li><a href="home.html"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+                  <li><a href="#"><span class="glyphicon glyphicon-earphone"></span> ContactUs</a></li>
+                  <li><a href="#"><span class="glyphicon glyphicon-book"></span>AboutUs</a></li>
+              </ul>
+              
+          </div>
+      </div>
+  </div> <br>
+    <h1 style="text-align: center;">Welcome to Events Hall Signup</h1>
+
+    <div class="row">
+      <div class="col-sm-offset-3 col-sm-6">
+      
+      <div class="tab-content">
+        <div role="tabpanel" class="tab-pane active" id="profile">
+    <form name="signup_form" method="post" action="#">
+       <div class="form-group">
+           <label for="name">Enter Party Lawn, Hotel, Palace, Guest House Name:</label>
+           <input type="text" class="form-control" id="gname" placeholder="Name" name="gname">
+           <p id="guest_house_name_check"></p>
+      </div>
+
+      <div class="form-group">
+           <label for="mname">Enter Owner Or Manager Name:</label>
+           <input type="text" class="form-control" id="mname" placeholder="Owner Or Manager Name" name="ownername" >
+           <p id="owner_name_check"></p>
+      </div>
+      <div class="form-group">
+           <label for="address">Enter Party Lawn, Hotel, Palace, Guest House Address:</label>
+           <input type="text" class="form-control" id="address" placeholder="address" name="address" >
+      </div>
+      <div class="form-group">
+           <label for="address">Enter City Name:</label>
+           <input type="text" class="form-control" id="city" placeholder="City Name" name="City">
+           <p id="city_name_check"></p>
+      </div>
+      <div class="form-group">
+  <label for="sel1">Select State:</label>
+  <select class="form-control" id="sel1" name="state">
+    <option>Select State</option>
+    <option>Andaman and Nicobar Islands</option>
+    <option>Andhra Pradesh</option>
+    <option>Arunachal Pradesh</option>
+    <option>Bihar</option>
+    <option>Chandigarh</option>
+    <option>Chhattisgarh</option>
+    <option>Dadar and Nagar Haveli</option>
+    <option>Daman and Diu</option>
+    <option>Delhi</option>
+    <option>Goa</option>
+    <option>Gujarat</option>
+    <option>Haryana</option>
+    <option>Himachal Pradesh</option>
+    <option>Jammu and Kashmir</option>
+    <option>Jharkhand</option>
+    <option>Karnataka</option>
+    <option>Kerala</option>
+    <option>Lakshadeep</option>
+    <option>Madya Pradesh</option>
+    <option>Maharashtra</option>
+    <option>Manipur</option>
+    <option>Meghalaya</option>
+    <option>Mizoram</option>
+    <option>Nagaland</option>
+    <option>Orissa</option>
+    <option>Pondicherry</option>
+    <option>Punjab</option>
+    <option>Rajasthan</option>
+    <option>Sikkim</option>
+    <option>Tamil Nadu</option>
+    <option>Tripura</option>
+    <option>Uttaranchal</option>
+    <option>Uttar Pradesh</option>
+    <option>West Bengal</option>
+     
+  </select>
+</div>
+      <div class="form-group">
+           <label for="mnumber">Mobile No:</label>
+           <input type="number" class="form-control" id="mnumber" placeholder="Mobile or Contact" name="mobile">
+           <p id="mobile_number_check"></p>
+      </div>
+      <div class="form-group">
+           <label for="email">Email Id:</label>
+           <input type="email" class="form-control" id="email" placeholder="Email" name="email2" required>
+      </div>
+      <div class="form-group">
+           <label for="pwd">Password:</label>
+           <input type="password" class="form-control" id="pwd" placeholder="Enter your Password" name="password2">
+           <p id="password_check"></p>
+     </div>
+     <div class="form-group">
+           <label for="cpwd"> Confirm Password:</label>
+           <input type="password" class="form-control" id="cpwd" placeholder="Re-type Password" name="cpassword2">
+           <p id="cpassword_check"></p>
+     </div>
+     <div>
+      <div class="checkbox" >
+           <label><input type="checkbox" name="check1"> I accept all Terms & Condition.</label>
+     </div>
+           <button type="submit" class="btn btn-success btn-block" id="submit">Submit</button>
+     </form>
+        </div>
+      </div>
+    </div>
+
+    </div>
+  </body>
+</html>

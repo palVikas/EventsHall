@@ -1,0 +1,31 @@
+
+    body{background-color: #e9caca;}
+    form{
+      background:#006666;
+      padding: 40px; 
+      -webkit-box-shadow:9px 15px 39px 9px rgba(0,0,0,0.75);
+       -moz-box-shadow:9px 15px 39px 9px rgba(0,0,0,0.75);
+       -box-shadow:9px 15px 39px 9px rgba(0,0,0,0.75);
+       color: white;
+    }
+    .nav-tabs{
+      margin-left: auto;
+      border-bottom: 1px solid #ddd;
+      margin-right: auto;
+      display: table;
+      margin-bottom: 20px;
+      margin-top:20px;
+    }
+    .nav-tabs>li>>a{
+      border-radius: 5px;
+      background: #669999;
+      color: white;
+    }
+    .nav-tabs>li>a:hover{
+      border-radius: 0px;
+      background: #002E6E;
+      color: white;
+    }
+
+
+  

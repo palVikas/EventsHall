@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+     <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+   <!--add jquery file -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="jquery.js"></script>
+  <script type="text/javascript" src="script.js"></script>
+  <link rel="stylesheet" type="text/css" href="assets/css/home.css">
+  <style type="text/css">
+    body{background-color: #e9caca;}
+    form{
+      background:#006666;
+      padding: 40px; 
+      -webkit-box-shadow:9px 15px 39px 9px rgba(0,0,0,0.75);
+       -moz-box-shadow:9px 15px 39px 9px rgba(0,0,0,0.75);
+       -box-shadow:9px 15px 39px 9px rgba(0,0,0,0.75);
+       color: white;
+    }
+    .nav-tabs{
+      margin-left: auto;
+      border-bottom: 1px solid #ddd;
+      margin-right: auto;
+      display: table;
+      margin-bottom: 20px;
+      margin-top:20px;
+    }
+    .nav-tabs>li>>a{
+      border-radius: 5px;
+      background: #000;
+      color: white;
+    }
+    .nav-tabs>li>a:hover{
+      border-radius: 0px;
+      background: #002E6E;
+      color: white;
+    }
+
+
+  </style>
+
+    <title>Registration Form</title>
+  </head>
+  <body>
+    <!-- heading section using navbar -->
+
+  <div class="navbar navbar-inverse navbar-fixed navbar-custom">
+      <div class="container">
+          <div class="navbar-header" ><a href="#" class="pull-left">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>                        
+              </button>
+              <a class="pull-left" href="#"><img  src="assets/images/logo.png" alt="Brand"></a>
+              <a class="navbar-brand" href="#">Events Hall</a>
+          </div>
+
+          <div class="collapse navbar-collapse" id="myNavbar">
+              <ul class="nav navbar-nav navbar-right">
+                  <li><a href="#"><span class="glyphicon glyphicon-user"></span>SignIn</a></li>
+                  <li><a href="searchpage.html"><span class="glyphicon glyphicon-search"></span> Search</a></li>
+                  <li class="active"><a href="home.html"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+                  <li><a href="#"><span class="glyphicon glyphicon-earphone"></span> ContactUs</a></li>
+                  <li><a href="#"><span class="glyphicon glyphicon-book"></span>AboutUs</a></li>
+              </ul>
+              
+          </div>
+      </div>
+  </div> <br>
+
+<!-- Nav tabs -->
+<h1 style="text-align: center;">Welcome to Events Hall login </h1>
+<div class="row">
+      <div class="col-sm-offset-3 col-sm-6">
+          <form class="form-horizontal" action="" method="post" id="login_form" name="login_page">
+       <div class="form-group">
+           <label for="email">Email address:</label>
+           <input type="email" class="form-control" id="email" placeholder="Email" required="required" name="email">
+      </div>
+      <div class="form-group">
+           <label for="pwd">Password:</label>
+           <input type="password" class="form-control" id="pwd" placeholder="Password" required="required" name="password">
+     </div>
+      <div class="checkbox">
+           <label><input type="checkbox"> Remember me</label>
+     </div>
+     <label for="forget_Password"> Forgot Your Password:  <a href="#">  Click Here</a></label>
+           <button type="button" class="btn btn-success btn-block">Submit</button>
+           <label for="forget_Password"></label>
+     </form>
+     </div>
+     

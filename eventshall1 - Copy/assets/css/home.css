@@ -1,7 +1,17 @@
+body{background-color: #e9caca;}
  .navbar {
       margin-bottom: 0;
       border-radius: 0;
+
     }
+    .navbar-custom{
+      color: #8cb3d9;
+      background: #bf4040;
+    }
+    .nav.navbar-nav.navbar-right li a {
+    color: white;
+}
+
     
     /* Add a gray background color and some padding to the footer */
   footer {
@@ -27,7 +37,7 @@
 }
 
 .iconHeading span{
-  font-size: 40px;
+  font-size: 55px;
 }
 
 .head4 {
